@@ -116,7 +116,6 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  /*margin-right: 76px;*/
 }
 
 .header-logo {
@@ -483,6 +482,7 @@ h2 {
 .hero-button:focus {
   background-color: #404bbf;
 }
+
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
@@ -545,9 +545,6 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-  /*.features {
-    padding: 96px 0;
-  }*/
   .features-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -720,9 +717,6 @@ h2 {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  /*background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;*/
 }
 .portfolio-thumb {
   width: 100%;
@@ -872,7 +866,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  text-align: left;
+ 
 }
 .footer-text-social {
   display: flex;
@@ -1014,7 +1008,6 @@ h2 {
     flex-direction: row;
     align-items: baseline;
     text-align: left;
-    gap: 120px;
   }
 
   .social-link-wrapper {
@@ -1042,7 +1035,6 @@ h2 {
   }
 
   .footer-logo-social {
-    /*width: auto; */
     text-align: left;
     align-self: flex-start;
     gap: 16px;
@@ -1059,7 +1051,7 @@ h2 {
     width: auto; 
     text-align: left; 
     align-self: flex-start; 
-    gap: 16px;
+    
   }
   .contact-link{
     display: block;
@@ -1078,6 +1070,24 @@ h2 {
    padding: 8px 16px;
    margin: 16px 0;
   }
+  .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo-social {
+  display: 
+  block;
+}
+ .footer-logo-social, 
+    .footer-text-social, 
+    .footer-contact-info, 
+    .footer-social {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+
 }
 @media screen and (min-width: 1158px) {
   .footer {
@@ -1085,10 +1095,11 @@ h2 {
   }
 
   .social-link-wrapper {
-    justify-content: flex-start; /* вирівнювання по лівому краю на ПК */
+    justify-content: flex-start;
   }
 
   .footer-logo-social {
-   margin-right: 120px;
+    margin-right: 0;
 }
+
 }
