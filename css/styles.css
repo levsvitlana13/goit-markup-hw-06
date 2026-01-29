@@ -845,13 +845,15 @@ h2 {
 }
 .social-link-wrapper {
   display: flex;
- width: 100%;
+ display: flex;
+  justify-content: center;
   justify-content: center;
 }
 
 
 .footer-logo {
   display: flex;
+  margin-bottom: 16px;
 }
 
 .logo-accent-footer {
@@ -886,7 +888,8 @@ h2 {
 .footer-text-social,
 .footer-contact-info,
 .footer-social {
-  width: 100%;
+ display: flex;
+  flex-direction: column;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1008,14 +1011,19 @@ h2 {
     flex-direction: row;
     align-items: baseline;
     text-align: left;
+     gap: 24px;
+     flex-wrap: wrap;
   }
+
+
+  
 
   .social-link-wrapper {
     justify-content: flex-start;
   }
 
   .footer-text {
-    max-width: 264px;
+    width: 100%;
   }
 
   .footer-form {
@@ -1101,5 +1109,9 @@ h2 {
   .footer-logo-social {
     margin-right: 0;
 }
+ .footer-container {
+    flex-wrap: nowrap; /* ← ВАЖЛИВО */
+   
+  }
 
 }
