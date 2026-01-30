@@ -642,7 +642,7 @@ p {
 }
 
 /*backdrop is-open"*/
-
+/*
 .backdrop {
   position: fixed;
   top: 0;
@@ -728,9 +728,9 @@ p {
 .modal-input-cursor:focus-within .modal-icon {
   fill: #4d5ae5;
 }
-
+*/
 /* modal content */
-
+/* 
 .modal-title {
   max-width: 360px;
   font-weight: 500;
@@ -741,15 +741,18 @@ p {
   text-align: center;
   margin-bottom: 16px;
 }
+  
 .modal-form {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
 
+
 .modal-section {
   margin: 8px 0 0;
 }
+
 
 .modal-label {
   font-size: 12px;
@@ -757,8 +760,8 @@ p {
   letter-spacing: 0.04em;
   color: rgba(142, 143, 153, 1);
   display: block;
-  font-size: 12px;
 }
+
 
 .form-label .modal-label {
   white-space: nowrap;
@@ -825,9 +828,10 @@ p {
   outline: none;
   border-color: #4d5ae5;
 }
+*/
 
 /*fieldset*/
-
+/*
 .form-group {
   display: flex;
   flex-direction: column;
@@ -930,7 +934,7 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+*/
 /* modal button */
 
 .modal-button-wrapper {
